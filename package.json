@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node build.mjs",
+    "build": "node build-v2.mjs",
     "dev": "node dev.mjs"
   },
   "engines": {
