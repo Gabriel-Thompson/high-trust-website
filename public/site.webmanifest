@@ -1,0 +1,8 @@
+{
+  "name": "High Trust America",
+  "short_name": "High Trust",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f0e8",
+  "theme_color": "#0e1b2b"
+}
