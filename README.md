@@ -1,6 +1,6 @@
-# High Trust America Website
+# High Trust Society Foundation Website
 
-A custom, dependency-free static website for High Trust America.
+A custom, dependency-free static website for the **High Trust Society Foundation**, published at **hightrustamerica.org**.
 
 ## Build
 
@@ -30,6 +30,13 @@ Then visit `http://localhost:4321`.
 
 No database, server, or paid runtime is required.
 
+## Brand
+
+Organization: **High Trust Society Foundation**  
+Public domain: **hightrustamerica.org**
+
+The selected HTS seal/wordmark is stored at `public/assets/high-trust-society-foundation-logo.svg` and is used in the site header and footer.
+
 ## Current scope
 
 Built now:
@@ -54,15 +61,15 @@ Intentional Coming Soon states:
 
 ## Design direction
 
-High Trust America is designed as a modern American institution rather than a campaign site or generic nonprofit template:
+The High Trust Society Foundation is designed as a modern American institution rather than a campaign site or generic nonprofit template:
 
 - Deep navy, warm ivory, restrained red, muted gold
 - Editorial serif display typography with clean sans-serif body copy
 - Broad whitespace and thin institutional rules
-- Simple custom HT seal / wordmark
+- Selected HTS circular seal and wordmark
 - No fabricated rankings, endorsements, statistics, or social links
-- Plain-language content grounded in the August 2026 founding prospectus
+- Plain-language content grounded in the founding prospectus
 
 ## Content architecture
 
-`src/pages/*.html` contains readable page content fragments. The zero-dependency `build.mjs` extracts each page body and applies the shared site shell, metadata, navigation, footer, and scripts.
+`src/pages/*.html` contains readable page content fragments. The zero-dependency `build-v2.mjs` extracts each page body, applies the High Trust Society Foundation branding, and builds the shared site shell, metadata, navigation, footer, and scripts.
